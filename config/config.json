@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-folder-id-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/getFolderId/GetFolderIdCommandSet.js",
+          "manifest": "./src/extensions/getFolderId/GetFolderIdCommandSet.manifest.json"
+        }
+      ]
+    },
+    "redirect-to-folder-id-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/redirectToFolderId/RedirectToFolderIdWebPart.js",
+          "manifest": "./src/webparts/redirectToFolderId/RedirectToFolderIdWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetFolderIdCommandSetStrings": "lib/extensions/getFolderId/loc/{locale}.js",
+    "RedirectToFolderIdWebPartStrings": "lib/webparts/redirectToFolderId/loc/{locale}.js"
+  }
+}
