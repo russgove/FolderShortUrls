@@ -10,7 +10,7 @@
           "location": "ClientSideExtension.ListViewCommandSet.ContextMenu",
           "properties": {
             "title": "Get Url for SAP",
-            "urlFormat": "https://tronoxglobal.sharepoint.com/sites/OTDOrders/redirect.aspx?f={folderId}"
+            "urlFormat": "https://tronoxglobal.sharepoint.com/sites/OTDOrders/SitePages/redirect.aspx?f={folderId}"
           }
         }
       }
